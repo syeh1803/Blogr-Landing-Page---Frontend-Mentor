@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../app/scss/globals/desktop.scss"
+    ],
+    "names": [],
+    "file": "desktop.css"
+}
