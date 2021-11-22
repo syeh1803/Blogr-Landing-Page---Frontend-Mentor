@@ -193,8 +193,8 @@ body {
           gap: 1.3rem;
 
           & p.container-left__description {
-              color: $neutral-body-darkgrayishblue;
-              opacity: 0.9;
+            color: $neutral-body-darkgrayishblue;
+            opacity: 0.9;
           }
         }
       }
@@ -231,14 +231,14 @@ body {
         text-align: center;
 
         & h1.infrastructure__container-right--heading {
-            font-size: 4rem;
-            font-weight: 400;
-            color: $neutral-text-white;
+          font-size: 4rem;
+          font-weight: 400;
+          color: $neutral-text-white;
         }
 
         & p.infrastructure__container-right--description {
-            color: $neutral-text-white;
-            opacity: 0.8;
+          color: $neutral-text-white;
+          opacity: 0.8;
         }
       }
     }
@@ -269,8 +269,52 @@ body {
           gap: 2rem;
 
           & p.container-right__description {
-              color: $neutral-body-darkgrayishblue;
-              opacity: 0.9;
+            color: $neutral-body-darkgrayishblue;
+            opacity: 0.9;
+          }
+        }
+      }
+    }
+  }
+
+  /* footer styling */
+  footer.footer {
+    padding: 7rem 0 7.5rem 0;
+    background-color: $neutral-footer-bg-darkblackblue;
+    border-top-right-radius: 10rem;
+
+    & .footer__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      & .footer__left {
+        margin-bottom: 8.5rem;
+      }
+
+      & .footer__right {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+
+        & .footer__right-info {
+          text-align: center;
+          & > h4 {
+            font-size: 1.8rem;
+            font-weight: 400;
+          }
+
+          & h4.footer__right-info--heading {
+            margin-bottom: 2.5rem;
+            color: $neutral-text-white;
+          }
+          & h4.footer__right-info--detail {
+            color: $neutral-footer-text-grayishblue;
+            opacity: 0.8;
+
+            &:not(:last-of-type) {
+              margin-bottom: 1.3rem;
+            }
           }
         }
       }

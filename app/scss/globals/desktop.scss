@@ -203,7 +203,7 @@
         flex-direction: row;
 
         & .what-is-blogr__container-left {
-            flex: 1;
+          flex: 1;
         }
 
         & .what-is-blogr__container-right {
@@ -214,6 +214,43 @@
 
           & .container-right__inner {
             text-align: left;
+          }
+        }
+      }
+    }
+
+    /* footer styling */
+    footer.footer {
+      padding: 7rem 0 7.5rem 16rem;
+
+      & .footer__container {
+        flex-direction: row;
+
+        & .footer__left {
+          margin: 0 18rem 17rem 0;
+        }
+
+        & .footer__right {
+          flex-direction: row;
+          gap: 21rem;
+
+          & .footer__right-info {
+            text-align: left;
+            & > h4 {
+              font-size: 1.5rem;
+            }
+
+            & h4.footer__right-info--heading {
+              margin-bottom: 3rem;
+            }
+
+            & h4.footer__right-info--detail:hover {
+                text-decoration: underline;
+            }
+
+            & h4.footer__right-info--detail:not(:last-of-type) {
+              margin-bottom: 1.5rem;
+            }
           }
         }
       }
