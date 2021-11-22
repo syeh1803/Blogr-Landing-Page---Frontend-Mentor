@@ -100,7 +100,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 1.35;
   font-family: "Overpass", sans-serif;
   font-size: 1.6rem;
 }
@@ -147,4 +147,12 @@ button {
   outline: none;
   background: none;
   cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 0.05rem;
+  border-radius: 3rem;
+}
+
+img {
+    display: block;
 }

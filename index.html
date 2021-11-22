@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;600&family=Ubuntu:wght@400;500;700&display=swap"
         rel="stylesheet">
     <!-- Style Sheet -->
     <link rel="stylesheet" href="/dist/style.css">
@@ -18,36 +18,91 @@
 </head>
 
 <body>
-   
-    Product
+    <!-- header -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <nav class="header__nav">
+                <img src="/images/logo.svg" alt="logo" class="logo">
+                <button type="button" id="burger"><img src="/images/icon-hamburger.svg" alt="burger"
+                        class="burger"></button>
+                <button type="button" id="close"><img src="/images/icon-close.svg" alt="close" class="close"></button>
+                <ul class="nav__nav-list" id="nav-list">
+                    <!-- Product -->
+                    <div class="nav__container-left">
+                        <li class="nav__nav-item">
+                            <div class="nav__button-icon">
+                                <button type="button" id="nav-button" class="nav-button">Product</button>
+                                <button type="button" id="arrow-icon" class="arrow-icon"><img
+                                        src="/images/icon-arrow-dark.svg" alt="arrow icon"
+                                        class="dark-arrow-icon"></button>
+                                <button type="button" id="arrow-icon" class="arrow-icon"><img
+                                        src="/images/icon-arrow-light.svg" alt="arrow icon"
+                                        class="light-arrow-icon"></button>
+                            </div>
+                            <ul class="nav__dropdown dropdown__product" id="nav-dropdown">
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Marketplace</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Integrations</a></li>
+                            </ul>
 
-    Overview
-    Pricing
-    Marketplace
-    Features
-    Integrations
-
-    Company
-
-    About
-    Team
-    Blog
-    Careers
-
-    Connect
-
-    Contact
-    Newsletter
-    LinkedIn
-
-    Login
-    Sign Up
-
-    A modern publishing platform
-    Grow your audience and build your online brand
-
-    Start for Free
-    Learn More
+                        </li>
+                        <!-- Company -->
+                        <li class="nav__nav-item">
+                            <div class="nav__button-icon">
+                                <button type="button" id="nav-button" class="nav-button">Company</button>
+                                <button type="button" id="arrow-icon" class="arrow-icon"><img
+                                        src="/images/icon-arrow-dark.svg" alt="arrow icon"
+                                        class="dark-arrow-icon"></button>
+                                <button type="button" id="arrow-icon" class="arrow-icon"><img
+                                        src="/images/icon-arrow-light.svg" alt="arrow icon"
+                                        class="light-arrow-icon"></button>
+                            </div>
+                            <ul class="nav__dropdown dropdown__company" id="nav-dropdown">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </li>
+                        <!-- Connect -->
+                        <li class="nav__nav-item">
+                            <div class="nav__button-icon">
+                                <button type="button" id="nav-button" class="nav-button">Connect</button>
+                                <button type="button" id="arrow-icon" class="arrow-icon"><img
+                                        src="/images/icon-arrow-dark.svg" alt="arrow icon"
+                                        class="dark-arrow-icon"></button>
+                                <button type="button" id="arrow-icon" class="arrow-icon"><img
+                                        src="/images/icon-arrow-light.svg" alt="arrow icon"
+                                        class="light-arrow-icon"></button>
+                            </div>
+                            <ul class="nav__dropdown dropdown__connect" id="nav-dropdown">
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Newsletter</a></li>
+                                <li><a href="#">Linkedin</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <hr>
+                    <div class="nav__container-right">
+                        <li class="nav__nav-item"><a href="#"><button type="button" id= "nav-button" class="nav-button">Login</button></a></li>
+                        <a class="nav__sign-up" href="#"><button>Sign Up</button></a>
+                    </div>
+                </ul>
+            </nav>
+            <div class="header__content">
+                <h1 class="header__heading">
+                    A modern publishing platform
+                </h1>
+                <p class="header__description">
+                    Grow your audience and build your online brand
+                </p>
+                <a href="#"><button class="start-for-free">Start for Free</button></a>
+                <a href="#"><button class="learn-more">Learn More</button></a>
+            </div>
+        </div>
+    </header>
 
     Designed for the future
 
