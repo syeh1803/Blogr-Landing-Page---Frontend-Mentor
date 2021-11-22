@@ -1,3 +1,5 @@
+@use "./colors.scss" as *;
+
 /* reset css */
 html,
 body,
@@ -100,7 +102,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1.35;
+  line-height: 1.2;
   font-family: "Overpass", sans-serif;
   font-size: 1.6rem;
 }
@@ -155,4 +157,16 @@ button {
 
 img {
     display: block;
+}
+
+h2 {
+    font-weight: 400;
+    color: $primary-headings-darkblue;
+}
+
+p {
+    color: $neutral-body-darkgrayishblue;
+    line-height: 1.8;
+    font-weight: 200;
+    letter-spacing: 0.05rem;
 }

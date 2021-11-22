@@ -110,25 +110,57 @@
 
         & .header__content {
           & h1.header__heading {
-              font-size: 6rem;
-              font-weight: 500;
+            font-size: 6rem;
+            font-weight: 500;
           }
 
           & p.header__description {
-              font-size: 2.1rem;
+            font-size: 2.1rem;
           }
 
           & a button {
             &.start-for-free:hover {
-                color: $neutral-text-white;
-                  background: $primary-cta-hover-lightred;
-                  opacity: 0.9;
+              color: $neutral-text-white;
+              background: $primary-cta-hover-lightred;
+              opacity: 0.9;
             }
 
             &.learn-more:hover {
-                color: $primary-cta-hover-lightred;
-                background: $neutral-text-white;
+              color: $primary-cta-hover-lightred;
+              background: $neutral-text-white;
             }
+          }
+        }
+      }
+    }
+
+    /* Designed for the future styling */
+    section.future {
+    background-image: url(/images/illustration-editor-desktop.svg);
+    background-position: top 7rem right -27rem;
+    padding: 15.5rem 1rem 17.2rem 1rem;
+
+    & h2.future__heading {
+      font-size: 3.7rem;
+      font-weight: 500;
+    }
+      & .future__container {
+        flex-direction: row-reverse;
+        margin: 5.8rem 0 0 13.5rem;
+
+        & .future__container-right {
+          flex: 1;
+          padding: 0 19.3rem 0 2.5rem;
+        }
+
+        & .future__container-left {
+          flex: 1;
+          gap: 7rem;
+         
+
+          & .container-left__inner {
+              gap: 2.5rem;
+              text-align: left;
           }
         }
       }
