@@ -136,14 +136,14 @@
 
     /* Designed for the future styling */
     section.future {
-    background-image: url(/images/illustration-editor-desktop.svg);
-    background-position: top 7rem right -27rem;
-    padding: 15.5rem 1rem 17.2rem 1rem;
+      background-image: url(/images/illustration-editor-desktop.svg);
+      background-position: top 7rem right -27rem;
+      padding: 15.5rem 1rem 22.5rem 1rem;
 
-    & h2.future__heading {
-      font-size: 3.7rem;
-      font-weight: 500;
-    }
+      & h2.future__heading {
+        font-size: 3.7rem;
+        font-weight: 500;
+      }
       & .future__container {
         flex-direction: row-reverse;
         margin: 5.8rem 0 0 13.5rem;
@@ -156,11 +156,39 @@
         & .future__container-left {
           flex: 1;
           gap: 7rem;
-         
 
           & .container-left__inner {
-              gap: 2.5rem;
-              text-align: left;
+            gap: 2.5rem;
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    /* State of the Art Infrastructure styling */
+    section.infrastructure {
+      & .infrastructure__container {
+        flex-direction: row;
+        background-size: 75%;
+        background-position: top -58rem left -26rem;
+        & .infrastructure__container-left {
+          flex: 1;
+          & img {
+            width: 55.2rem;
+            height: 57.9rem;
+            top: 151.9rem;
+            left: 12.3rem;
+          }
+        }
+
+        & .infrastructure__container-right {
+          flex: 1;
+          margin: 11.5rem 0 10.6rem 0;
+          padding: 0 6rem 0 9rem;
+          text-align: left;
+
+          & p.infrastructure__container-right--description {
+            padding-right: 9.1rem;
           }
         }
       }

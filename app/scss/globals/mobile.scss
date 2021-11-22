@@ -167,8 +167,7 @@ body {
 
   /* Designed for the future styling */
   section.future {
-    outline: 1px solid red;
-    padding: 10.5rem 1rem 9.5rem 1rem;
+    padding: 10.5rem 1rem 26.5rem 1rem;
     text-align: center;
     background-image: url(/images/illustration-editor-mobile.svg);
     background-repeat: no-repeat;
@@ -196,6 +195,49 @@ body {
           display: flex;
           flex-direction: column;
           gap: 1.3rem;
+        }
+      }
+    }
+  }
+
+  /* State of the Art Infrastructure styling */
+  section.infrastructure {
+    background: linear-gradient(to right, #2c2d3f, #3f4164);
+    overflow: hidden;
+    border-radius: 0 10rem 0 10rem;
+
+    & .infrastructure__container {
+      display: flex;
+      flex-direction: column;
+      background-image: url(/images/bg-pattern-circles.svg);
+      background-repeat: no-repeat;
+      background-size: 170%;
+      background-position: top -28rem center;
+      & .infrastructure__container-left {
+        & img {
+          position: absolute;
+          width: 100%;
+          top: 183.722rem;
+        }
+      }
+
+      & .infrastructure__container-right {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 22rem 0 10.6rem 0;
+        padding: 0 2.5rem;
+        text-align: center;
+
+        & h1.infrastructure__container-right--heading {
+            font-size: 4rem;
+            font-weight: 400;
+            color: $neutral-text-white;
+        }
+
+        & p.infrastructure__container-right--description {
+            color: $neutral-text-white;
+            opacity: 0.8;
         }
       }
     }
