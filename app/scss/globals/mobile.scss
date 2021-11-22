@@ -173,10 +173,6 @@ body {
     background-repeat: no-repeat;
     background-position: top 18rem center;
 
-    & h2 {
-      font-size: 2.8rem;
-    }
-
     & .future__container {
       display: flex;
       flex-direction: column;
@@ -195,6 +191,11 @@ body {
           display: flex;
           flex-direction: column;
           gap: 1.3rem;
+
+          & p.container-left__description {
+              color: $neutral-body-darkgrayishblue;
+              opacity: 0.9;
+          }
         }
       }
     }
@@ -238,6 +239,39 @@ body {
         & p.infrastructure__container-right--description {
             color: $neutral-text-white;
             opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  /* what is blogr styling */
+  section.what-is-blogr {
+    padding: 10.5rem 1rem 9.5rem 1rem;
+    text-align: center;
+    background-image: url(/images/illustration-laptop-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top 6.7rem center;
+
+    & .what-is-blogr__container {
+      display: flex;
+      flex-direction: column;
+
+      & .what-is-blogr__container-right {
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
+        margin-top: 36rem;
+        padding: 0 2.5rem;
+
+        & .container-right__inner {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+
+          & p.container-right__description {
+              color: $neutral-body-darkgrayishblue;
+              opacity: 0.9;
+          }
         }
       }
     }

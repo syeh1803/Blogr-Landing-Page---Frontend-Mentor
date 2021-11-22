@@ -193,5 +193,30 @@
         }
       }
     }
+
+    /* what is blogr styling */
+    section.what-is-blogr {
+      background-image: url(/images/illustration-laptop-desktop.svg);
+      background-position: top 11rem left -28rem;
+
+      & .what-is-blogr__container {
+        flex-direction: row;
+
+        & .what-is-blogr__container-left {
+            flex: 1;
+        }
+
+        & .what-is-blogr__container-right {
+          flex: 1;
+          margin-top: 20rem;
+          padding: 0 17.3rem 0 20.5rem;
+          gap: 7rem;
+
+          & .container-right__inner {
+            text-align: left;
+          }
+        }
+      }
+    }
   }
 }
